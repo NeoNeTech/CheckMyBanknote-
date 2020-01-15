@@ -2,6 +2,7 @@
   margin: 0;
   overflow-y: hidden;
   font-family: Arial;
+  user-select: none;
 }
 .my-banknote {
   display: flex;
