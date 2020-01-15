@@ -1,0 +1,27 @@
+{
+  "name": "checkmybanknote",
+  "version": "0.0.1",
+  "description": "Vérifie si ton billet est un vrai !",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NeoNeTech/CheckMyBanknote-.git"
+  },
+  "keywords": [
+    "check",
+    "gallon",
+    "verify"
+  ],
+  "author": "Quentin LLOVERAS - NeoNeTech",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NeoNeTech/CheckMyBanknote-/issues"
+  },
+  "homepage": "https://github.com/NeoNeTech/CheckMyBanknote-#readme",
+  "devDependencies": {
+    "electron": "^7.1.8"
+  }
+}

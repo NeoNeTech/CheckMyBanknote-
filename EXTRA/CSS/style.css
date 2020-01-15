@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  overflow-y: hidden;
+  font-family: Arial;
+}
+.my-banknote {
+  display: flex;
+  flex-direction: row;
+  height: 415px;
+  z-index: 1;
+}
+
+.close {
+  position: absolute;
+  right: 6px;
+  top: 5px;
+  width: 32px;
+  height: 32px;
+  opacity: 0.3;
+}
+.close:hover {
+  opacity: 1;
+}
+.close:before, .close:after {
+  position: absolute;
+  left: 15px;
+  content: ' ';
+  height: 33px;
+  width: 3px;
+  background-color: #6b965e;
+}
+.close:before {
+  transform: rotate(45deg);
+}
+.close:after {
+  transform: rotate(-45deg);
+}
+
+.first-section {
+  width: 15%;
+  height: 415px;
+  background-color: #f9fbf6;
+}
+
+.euro-flag {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.amount-euro {
+  color: #98aa90;
+  font-size: 37px;
+  margin-left: 4px;
+}
+
+.ue-flag {
+  margin-top: 15px;
+  margin-right: 5px;
+  height: 35px;
+  width: 55px;
+  background-color: #223496;
+  float: right;
+}
+
+.euro-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 300px;
+}
+
+.stick-group {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 80px;
+}
+
+.stick-up {
+  height: 15px;
+  width: 100px;
+  margin-bottom: 5px;
+  background-color: #7a9572;
+}
+
+.stick-down {
+  height: 15px;
+  width: 100px;
+  background-color: #8eb682;
+}
+
+.amount-euro-medium {
+  font-size: 45px;
+  color: #8fa68a;
+}
+
+.second-section {
+  width: 30%;
+  height: 415px;
+  background-color: #d6eacf;
+}
+
+input {
+  background-color: #d6eacf;
+  border: none;
+  border-bottom: solid 3px;
+  border-color: #8cb082;
+  margin-top: 20px;
+  margin-left: 5px;
+  height: 15px;
+  color: #8cb082;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.third-section {
+  width: 40%;
+  height: 415px;
+  background-color: #8cb482;
+}
+
+.amount-euro-big {
+  color: #558e47;
+  font-size: 150px;
+}
+
+.fourth-section {
+  width: 10%;
+  height: 415px;
+  background-color: #a8ce9d;
+}
+
+.arch {
+  position: absolute;
+  top: 150px;
+  left: 325px;
+  height: 450px;
+  width: 450px;
+}
+
+.fifth-section {
+  width: 5%;
+  height: 415px;
+  background-color: #f9fbf6;
+}

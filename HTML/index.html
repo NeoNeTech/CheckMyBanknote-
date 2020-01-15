@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="figure" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="../EXTRA/CSS/style.css">
+    <script type="text/javascript" src="../EXTRA/JS/app.js">
+
+    </script>
+    <meta charset="utf-8">
+    <title>Check My Banknote !</title>
+  </head>
+  <body>
+    <div class="my-banknote">
+      <div class="first-section">
+          <div class="euro-flag">
+            <span class="amount-euro">100</span>
+            <div class="ue-flag">
+            </div>
+          </div>
+          <div class="euro-footer">
+            <span class="amount-euro-medium">100</span>
+            <div class="stick-group">
+              <div class="stick-up">
+              </div>
+              <div class="stick-down">
+              </div>
+            </div>
+          </div>
+      </div>
+      <div class="second-section">
+        <div class="code-value">
+          <input type="text" id="code-input" placeholder="VOTRE CODE BILLIET ICI" onkeyup="this.value = this.value.toUpperCase();" onkeypress="sendCode(event);">
+        </div>
+      </div>
+      <div class="third-section">
+        <span class="amount-euro-big">100</span>
+        <img src="../EXTRA/IMG/arch.svg" class="arch">
+      </div>
+      <div class="fourth-section">
+      </div>
+      <div class="fifth-section">
+      </div>
+    </div>
+
+    <div class="my-body">
+      <a onclick="closeWindow()" class="close">
+    </div>
+
+    <script type="text/javascript" src="../EXTRA/JS/app.js"></script>
+  </body>
+</html>
